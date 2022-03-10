@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "concurrently -k 'npm:dev:neu' 'npm:dev:vite'",
 		"build": "npm run build:vite && npm run build:neu",
-		"dev:neu": "neu run --frontend-lib-dev",
+		"dev:neu": "neu run",
 		"build:neu": "neu build",
 		"dev:vite": "vite build --watch",
 		"build:vite": "vite build"
