@@ -8,7 +8,7 @@ Neutralino Template With React As Frontend Framework and Vite As Bundler
 Use this template via `create-neutralino-app`:
 
 ```bash
-npx create-neutralino-app
+npx create-neutralino-app@latest
 ```
 
 And Choose the `React Vite` template.
