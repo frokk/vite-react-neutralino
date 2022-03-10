@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"scripts": {
-		"start": "concurrently -k 'npm:dev:neu' 'npm:dev:vite'",
+		"start": "concurrently -k 'npm:dev:vite' 'npm:dev:neu'",
 		"build": "npm run build:vite && npm run build:neu",
 		"dev:neu": "neu run",
 		"build:neu": "neu build",
