@@ -3,9 +3,9 @@
     "private": true,
     "version": "0.0.0",
     "scripts": {
-        "start": "concurrently -k 'npm:dev:vite' 'npm:dev:neu'",
+        "start": "concurrently -k 'npm:dev:vite' 'neu run --frontend-lib-dev -- --window-enable-inspector'",
         "build": "npm run build:vite && npm run build:neu",
-        "dev:neu": "neu run --frontend-lib-dev -- --window-enable-inspector",
+        "dev:neu": "neu run --window-enable-inspector",
         "build:neu": "neu build",
         "dev:vite": "vite serve",
         "build:vite": "vite build",
