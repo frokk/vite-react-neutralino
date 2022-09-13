@@ -4,11 +4,11 @@ import './index.css'
 import App from './App'
 
 // function onWindowClose() {
-//   Neutralino.app.exit();
+//   window.Neutralino.app.exit();
 // }
 
-// Neutralino.init();
-// Neutralino.events.on("windowClose", onWindowClose);
+// window.Neutralino.init();
+// window.Neutralino.events.on("windowClose", onWindowClose);
 
 ReactDOM.render(
   <React.StrictMode>
